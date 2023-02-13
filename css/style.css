@@ -1,0 +1,295 @@
+.s-btn{
+    color:white !important;
+    border: 1px solid white !important;
+}
+.s-btn:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.logo{ 
+    color:#E4C590 !important;
+    font-family: cursive;
+}
+.padding{
+    padding-top: 80px;
+}
+.box-shadow{
+    box-shadow:20px 28px 28px black !important;
+}
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: rgb(0 0 0 / 58%);
+    background-color: #E4C590 !important;
+    border: var(--bs-border-width) solid #ffffff !important;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+@media screen and (max-width:992px) {
+    .for-nav-width{
+        width: 30% !important;
+    }
+}
+@media screen and (min-width:992px) {
+    .for-nav-width{
+        width: 30% !important;
+    }
+}
+
+/* first section */
+.sec1{
+    background:linear-gradient(0deg, rgb(12 12 12 / 50%), rgb(8 8 8 / 50%)), url(../images/background-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-col{
+    color: #E4C590;
+    font-family: cursive;
+}
+.sp-color{
+    color:#E4C590 !important;
+}
+.des-width{
+    width: 10%;
+}
+@media screen and (min-width:600px) {
+    .for-font{
+        font-size: 80px !important;
+        font-family: auto;
+    }
+}
+@media screen and (max-width:600px) {
+    .for-font{
+        font-size: 40px !important;
+        font-family: auto;
+    }
+}
+/* .for-font{
+    font-size: 80px !important;
+    font-family: auto;
+} */
+.bord{
+    border: 2px solid #E4C590 !important;
+    color: #E4C590 !important;
+    transition: all 0.5s ease-in-out ;
+    border-radius: 0px !important;
+    letter-spacing: 2px;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+.bord:hover{
+    color: black !important;
+    background-color: #E4C590 !important;
+}
+.break{
+    font-size: 30px;
+    font-family: auto;
+    color: white;
+}
+.view{
+    font-size: 12px;
+    color: #E4C590;
+}
+.font-royalty{
+    font-size: 47px !important;
+    font-family: auto;
+}
+@media screen and (min-width:768px) {
+    .padd-royalty{
+        padding-top: 140px;
+    }
+}
+
+
+.sec2{
+    width: 100%;
+    background-image: url(../images/royal-top-bottom.png), url(../images/royal-bottom-left.png);
+    background-repeat: no-repeat no-repeat;
+    background-position: top right, bottom left;
+}
+
+/* third section start */
+.sec3{
+    width: 100%;
+    background-color: #171819;
+    background-image: url(../images/sec3-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.font-color{
+    color: #E4C590;
+}
+.letter-spacing{
+    letter-spacing: 3px;
+}
+.sec3-font{
+    font-size: 55px;
+    font-family: auto;
+}
+.img-sec{
+    background-image: url(../images/sec4-main-pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section forth */
+.sec4{
+    background-color: #171819;
+    background-image: url(../images/kiwi.png), url(../images/bg-sec4.png);
+    background-repeat: no-repeat no-repeat;
+    background-position: top right, left bottom;
+
+}
+.sec4-font{
+    font-size: 20px !important;
+    color: white;
+    font-family: auto;
+    color: #E4C590;
+}
+.font-text-sec4{
+    font-size: 14px !important;
+    color: white;
+}
+.our{
+    font-size: 50px !important;
+    font-family: auto;
+    color: white;
+}
+
+/* footer section */
+.footer-sec{
+background:linear-gradient(0deg, rgb(12 12 12 / 50%), rgb(8 8 8 / 62%)), url(../images/footer-bg.jpg);
+    background-size: cover;
+    /* background-color: rgba(0,0,0,0.5);
+    z-index: 2; */
+}
+.footer-padd{
+    padding-top: 70px;
+}
+.ul-li{
+    letter-spacing: 3px;
+    color: #888889;
+    text-decoration: none;
+}
+.for-bg-img{
+    background-image: url(../images/footer-sec.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.eat{
+    color: white;
+    font-size: 23px;
+    font-family: auto;
+}
+.dhaba{
+    color: #E4C590;
+    font-size: 27px;
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+.address-font{
+    color: #888889;
+}
+
+/* menu page start */
+.menu-sec1{
+    background:linear-gradient(0deg, rgb(12 12 12 / 50%), rgb(8 8 8 / 50%)), url(../images/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* second section start */
+.menu-sec2{
+    background-color: #171819;
+}
+.bg-img{
+    background-image: url(../images/enjoy-the-little-thing.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.bg-img1{
+    background-image: url(../images/menu-bg-leave.png), url(../images/menu-bg-onion.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat no-repeat;
+
+}
+.menu-pricing{
+    color: #E4C590;
+}
+.menu-dish{
+    color:#E4C590;
+}
+.fs-8{
+    font-size: 14px !important;
+}
+/* second section end */
+
+/* forth section start */
+.menu-sec4{
+    background-color: #171819;
+    background-image: url(../images/menu-bg-tomato.png), url(../images/menu-bg-long.png);
+    background-position: top right, left center;
+    background-repeat: no-repeat no-repeat;
+}
+.image{
+    border-radius: 14px;
+    transition: all 0.4s ease-in;
+}
+.image:hover{
+    transform: scale(1.1);
+    border-radius: 14px;
+
+}
+.border-menu{
+    border-radius: 20px;
+}
+.dish-name{
+    font-family: auto;
+}
+.dish-pro{
+    color: #a7a7a7;
+}
+.price{
+    color: #E4C590;
+}
+/* forth section end */
+/* menu page end */
+
+/* about us section start*/
+.about-sec1{
+    background:linear-gradient(0deg, rgb(12 12 12 / 50%), rgb(8 8 8 / 50%)), url(../images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.font-about{
+    font-size: 24px;
+}
+.about-sec2{
+    background-color: #171819 !important;
+}
+.about-font{
+    color:#E4C590;
+}
+.borderr{
+    border: 1px solid #E4C590;
+}
+.txt-color{
+    color: #a7a7a7;
+}
+/* about us section end */
+
+/* contact us start */
+.contact-sec1{
+    background:linear-gradient(0deg, rgb(12 12 12 / 50%), rgb(8 8 8 / 50%)), url(../images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.contact-sec2{
+    background-color: #171819 !important;
+}
+/* contact us end */
