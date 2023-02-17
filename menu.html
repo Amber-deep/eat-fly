@@ -1,433 +1,445 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head> 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Menu</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-  <body class="bg-black">
-    <!-- navbar section start -->
-    <section class="bg-black">
-        <div class="position-fixed w-100 bg-black">
-            <nav class="navbar navbar-expand-lg bg-body-black ">
-                <div class="container">
-                    <div class="col">
-                        <img src="./images/Restaurant-logo-with-chef-drawing-template-on-transparent-background-PNG.png" class="img-fluid for-nav-width">
-                        <!-- <a class="navbar-brand fw-bolder fs-3 logo" href="#">Eat & Fly</a> -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Menu</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    </head>
+    <body class="bg-black">
+        <!-- navbar section start -->
+        <section class="bg-black">
+            <div class="position-fixed w-100 navbar-fix" style="z-index: 122;">
+                <nav class="navbar navbar-expand-lg bg-body-black">
+                    <div class="container">
+                        <div class="col">
+                            <img src="./images/Restaurant-logo-with-chef-drawing-template-on-transparent-background-PNG.png" class="img-fluid for-nav-width" />
+                            <!-- <a class="navbar-brand fw-bolder fs-3 logo" href="#">Eat & Fly</a> -->
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll d-flex justify-content-center">
+                                <li class="nav-item px-2">
+                                    <a class="nav-link text-white " aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link text-white" href="about.html">About us</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link text-white active" href="menu.html">
+                                        Menu
+                                    </a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link text-white" href="contact.html">Contact us</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                                <button class="btn btn-outline-success s-btn" type="submit">Search</button>
+                            </form>
+                        </div>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarScroll">
-                        <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll d-flex justify-content-center" style="--bs-scroll-height: 100px;">
-                            <li class="nav-item px-2">
-                                <a class="nav-link text-white active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link text-white" href="about.html">About us</a>
-                            </li>
-                            <li class="nav-item px-2 ">
-                                <a class="nav-link  text-white" href="menu.html">
-                                Menu
-                                </a>
-                            </li>
-                            <li class="nav-item px-2">
-                                <a class="nav-link  text-white" href="contact.html">Contact us</a>
-                            </li>
-                        </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success s-btn" type="submit">Search</button>
-                    </form>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </section>
-    <!-- navbar section end -->
+                </nav>
+            </div>
+        </section>
+        <!-- navbar section end -->
 
-    <!-- first section start -->
-    <section class="menu-sec1">
-        <div class="container pt-5">
-            <div class="row py-5">
-                <div class="pt-5">
-                    <p class="pt-2 home-col text-center fs-4 fw-bold">DELIGHTFUL EXPERIENCE</p>
+        <!-- first section start -->
+        <section class="menu-sec1">
+            <div class="container pt-5">
+                <div class="row py-5">
+                    <div class="pt-5">
+                        <p class="pt-2 home-col text-center fs-4 fw-bold">DELIGHTFUL EXPERIENCE</p>
+                    </div>
+                    <div class="text-center pb-3 overflow-hidden">
+                        <img src="./images/design.svg" class="des-width"  data-aos="flip-right"/>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 m-auto text-white text-center">
+                            <p class="for-font">Our food</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-center pb-3">
-                    <img src="./images/design.svg" class="des-width">
+            </div>
+        </section>
+        <!-- first section end -->
+
+        <!-- second section start -->
+        <section class="menu-sec2 bg-img">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="text-center pt-5">
+                        <p class="home-col fs-4 fw-bold">STARTER MENU</p>
+                    </div>
+                    <div class="text-center pb-4 overflow-hidden">
+                        <img src="./images/design.svg" class="des-width"  data-aos="flip-right"/>
+                    </div>
+                    <div class="text-center">
+                        <p class="font-royalty text-white">Appetizers</p>
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-lg-6 col-12">
+                        <div class="text-center">
+                            <img src="./images/menu-salad.jpg" class="img-fluid" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="col-10 py-lg-0 py-4 m-auto">
+                            <div class="float-start w-50">
+                                <p class="menu-dish fs-4 mb-0">Greek Salad</p>
+                            </div>
+                            <div class="float-end w-50 text-end">
+                                <p class="menu-pricing fs-5 mb-0">$25.50</p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="text-start text-white">
+                                <p class="me-5 fs-8">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                            </div>
+
+                            <div class="float-start w-50">
+                                <p class="menu-dish fs-4 mb-0">Lasagne</p>
+                            </div>
+                            <div class="float-end w-50 text-end">
+                                <p class="menu-pricing fs-5 mb-0">$40.00</p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="text-start text-white">
+                                <p class="me-5 fs-8">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                            </div>
+
+                            <div class="float-start w-50">
+                                <p class="menu-dish fs-4 mb-0">Butternut Pumpkin</p>
+                            </div>
+                            <div class="float-end w-50 text-end">
+                                <p class="menu-pricing fs-5 mb-0">$15.50</p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="text-start text-white">
+                                <p class="me-5 fs-8">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
+                            </div>
+
+                            <div class="float-start w-50">
+                                <p class="menu-dish fs-4 mb-0">Tokusen Wagyu</p>
+                            </div>
+                            <div class="float-end w-50 text-end">
+                                <p class="menu-pricing fs-5 mb-0">$25.50</p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="text-start text-white">
+                                <p class="me-5 fs-8">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- second section end -->
+
+        <!-- third section start -->
+        <section class="menu-sec2 bg-img1">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="text-center pt-5">
+                        <p class="home-col fs-4 fw-bold">DELICIOUS</p>
+                    </div>
+                    <div class="text-center pb-4 overflow-hidden">
+                        <img src="./images/design.svg" class="des-width"  data-aos="flip-right"/>
+                    </div>
+                    <div class="text-center">
+                        <p class="font-royalty text-white">Main Dishes</p>
+                    </div>
+                </div>
+                <div class="row py-2">
+                    <div class="col-lg-6 col-12">
+                        <div class="col-10 py-lg-0 py-4 m-auto">
+                            <div class="float-start w-50">
+                                <p class="menu-dish fs-4 mb-0">Greek Salad</p>
+                            </div>
+                            <div class="float-end w-50 text-end">
+                                <p class="menu-pricing fs-5 mb-0">$25.50</p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="text-start text-white">
+                                <p class="me-5 fs-8">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
+                            </div>
+
+                            <div class="float-start w-50">
+                                <p class="menu-dish fs-4 mb-0">Lasagne</p>
+                            </div>
+                            <div class="float-end w-50 text-end">
+                                <p class="menu-pricing fs-5 mb-0">$40.00</p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="text-start text-white">
+                                <p class="me-5 fs-8">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
+                            </div>
+
+                            <div class="float-start w-50">
+                                <p class="menu-dish fs-4 mb-0">Butternut Pumpkin</p>
+                            </div>
+                            <div class="float-end w-50 text-end">
+                                <p class="menu-pricing fs-5 mb-0">$15.50</p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="text-start text-white">
+                                <p class="me-5 fs-8">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
+                            </div>
+
+                            <div class="float-start w-50">
+                                <p class="menu-dish fs-4 mb-0">Tokusen Wagyu</p>
+                            </div>
+                            <div class="float-end w-50 text-end">
+                                <p class="menu-pricing fs-5 mb-0">$25.50</p>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="text-start text-white">
+                                <p class="me-5 fs-8">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="text-center">
+                            <img src="./images/menu-dinner.jpg" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- third section end -->
+
+        <!-- forth section start -->
+        <section class="menu-sec4 py-5">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="text-center pt-5">
+                        <p class="home-col fs-4 fw-bold">SPECIAL OFFER</p>
+                    </div>
+                    <div class="text-center pb-4 overflow-hidden">
+                        <img src="./images/design.svg" class="des-width"  data-aos="flip-right"/>
+                    </div>
+                    <div class="text-center">
+                        <p class="font-royalty text-white">Best Special Menu</p>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-8 m-auto text-white text-center">
-                        <p class="for-font">Our food</p>
+                    <div class="col-md-3 col-sm-6 col-12 py-3">
+                        <div>
+                            <div class="text-center">
+                                <img src="./images/chicken-tikka.jpg" class="img-fluid image" />
+                            </div>
+                            <div class="dish-name text-white text-center py-2 fs-4">
+                                <p>Chicken Tikka</p>
+                            </div>
+                            <div class="dish-pro text-center py-2">
+                                <p>Avocados with crab meat, red onion, crab salad red bell pepper...</p>
+                            </div>
+                            <div class="price text-center fs-5 fw-bold">
+                                <p>$39.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12 py-3">
+                        <div>
+                            <div class="text-center">
+                                <img src="./images/mix-veg.jpg" class="img-fluid image" />
+                            </div>
+                            <div class="dish-name text-white text-center py-2 fs-4">
+                                <p>Mixed Veg.</p>
+                            </div>
+                            <div class="dish-pro text-center py-2">
+                                <p>Tomatoes, green bell pepper, sliced cucumber onion, olives...</p>
+                            </div>
+                            <div class="price text-center fs-5 fw-bold">
+                                <p>$22.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12 py-3">
+                        <div>
+                            <div class="text-center">
+                                <img src="./images/butternut.jpg" class="img-fluid image" />
+                            </div>
+                            <div class="dish-name text-white text-center py-2 fs-4">
+                                <p>Butternut-Pumpkin</p>
+                            </div>
+                            <div class="dish-pro text-center py-2">
+                                <p>Avocados with crab meat, red onion, crab salad stuffed bell pepper...</p>
+                            </div>
+                            <div class="price text-center fs-5 fw-bold">
+                                <p>$32.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12 py-3">
+                        <div>
+                            <div class="text-center">
+                                <img src="./images/fried-fish.jpg" class="img-fluid image" />
+                            </div>
+                            <div class="dish-name text-white text-center py-2 fs-4">
+                                <p>Opu Fish</p>
+                            </div>
+                            <div class="dish-pro text-center py-2">
+                                <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings...</p>
+                            </div>
+                            <div class="price text-center fs-5 fw-bold">
+                                <p>$12.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-12 py-3">
+                        <div>
+                            <div class="text-center">
+                                <img src="./images/gravy-chicken.jpg" class="img-fluid image" />
+                            </div>
+                            <div class="dish-name text-white text-center py-2 fs-4">
+                                <p>Gravy Chicken</p>
+                            </div>
+                            <div class="dish-pro text-center py-2">
+                                <p>Avocados with crab meat, red onion, crab salad red bell pepper...</p>
+                            </div>
+                            <div class="price text-center fs-5 fw-bold">
+                                <p>$39.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12 py-3">
+                        <div>
+                            <div class="text-center">
+                                <img src="./images/hakka-noodles.jpg" class="img-fluid image" />
+                            </div>
+                            <div class="dish-name text-white text-center py-2 fs-4">
+                                <p>Hakka Noodles</p>
+                            </div>
+                            <div class="dish-pro text-center py-2">
+                                <p>Tomatoes, green bell pepper, sliced cucumber onion, olives...</p>
+                            </div>
+                            <div class="price text-center fs-5 fw-bold">
+                                <p>$22.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12 py-3">
+                        <div>
+                            <div class="text-center">
+                                <img src="./images/veg-rice.jpg" class="img-fluid image" />
+                            </div>
+                            <div class="dish-name text-white text-center py-2 fs-4">
+                                <p>Veg-Rice</p>
+                            </div>
+                            <div class="dish-pro text-center py-2">
+                                <p>Avocados with crab meat, red onion, crab salad stuffed bell pepper...</p>
+                            </div>
+                            <div class="price text-center fs-5 fw-bold">
+                                <p>$32.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12 py-3">
+                        <div>
+                            <div class="text-center">
+                                <img src="./images/palak-paneer.jpg" class="img-fluid image" />
+                            </div>
+                            <div class="dish-name text-white text-center py-2 fs-4">
+                                <p>Palak Paneer</p>
+                            </div>
+                            <div class="dish-pro text-center py-2">
+                                <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings...</p>
+                            </div>
+                            <div class="price text-center fs-5 fw-bold">
+                                <p>$12.00</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- first section end -->
+        </section>
+        <!-- forth section end -->
 
-    <!-- second section start -->
-    <section class="menu-sec2 bg-img">
-        <div class="container">
-            <div class="row py-5">
-                <div class="text-center pt-5">
-                    <p class="home-col fs-4 fw-bold">STARTER MENU</p>
-                </div>
-                <div class="text-center pb-4">
-                    <img src="./images/design.svg" class="des-width">
-                </div>
-                <div class="text-center">
-                    <p class="font-royalty text-white">Appetizers</p>
-                </div>
-            </div>
-            <div class="row py-2">
-                <div class="col-lg-6 col-12">
-                    <div class="text-center"> 
-                        <img src="./images/menu-salad.jpg" class="img-fluid">
+        <!-- footer section start -->
+        <section class="footer-sec py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12 m-auto">
+                        <div class="m-auto">
+                            <ul class="list-unstyled ul-li text-center fw-bold">
+                                <li class="py-3">
+                                    <a class="ul-li" href="index.html">HOME</a>
+                                </li>
+                                <li class="py-3">
+                                    <a class="ul-li" href="about.html">About us</a>
+                                </li>
+                                <li class="py-3">
+                                    <a class="ul-li" href="menu.html">MENU</a>
+                                </li>
+                                <li class="py-3">
+                                    <a class="ul-li" href="contact.html">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="col-10 py-lg-0 py-4 m-auto">
-                        <div class="float-start w-50">
-                            <p class="menu-dish fs-4 mb-0">Greek Salad</p>
+                    <div class="col-md-6 for-bg-img col-12 overflow-hidden"  data-aos="zoom-in">
+                        <div class="py-5 px-4">
+                            <div class="text-center py-4">
+                                <p class="eat mb-0">
+                                    EAT & FLY <br />
+                                    <span class="dhaba">DHABA</span>
+                                </p>
+                            </div>
+                            <div class="text-center py-5 address-font">
+                                <p class="mb-1">Restaurant St, Delicious City, London 9578, UK</p>
+                                <p class="mb-1">booking@domainname.com</p>
+                                <p class="mb-1">Booking Request : +88-123-123456</p>
+                                <p class="mb-1">Open : 09:00 am - 01:00 pm</p>
+                            </div>
+                            <div class="text-center">
+                                <p class="dhaba">Good taste in every bite</p>
+                            </div>
                         </div>
-                        <div class="float-end w-50 text-end">
-                            <p class="menu-pricing fs-5 mb-0">$25.50</p>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="text-start text-white">
-                            <p class="me-5 fs-8">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
-                        </div>
-
-                        <div class="float-start w-50">
-                            <p class="menu-dish fs-4 mb-0">Lasagne </p>
-                        </div>
-                        <div class="float-end w-50 text-end">
-                            <p class="menu-pricing fs-5 mb-0"> $40.00</p>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="text-start text-white">
-                            <p class="me-5 fs-8">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
-                        </div>
-
-                        <div class="float-start w-50">
-                            <p class="menu-dish fs-4 mb-0">Butternut Pumpkin</p>
-                        </div>
-                        <div class="float-end w-50 text-end">
-                            <p class="menu-pricing fs-5 mb-0">$15.50</p>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="text-start text-white">
-                            <p class="me-5 fs-8">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
-                        </div>
-
-                        <div class="float-start w-50">
-                            <p class="menu-dish fs-4 mb-0">Tokusen Wagyu</p>
-                        </div>
-                        <div class="float-end w-50 text-end">
-                            <p class="menu-pricing fs-5 mb-0">$25.50</p>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="text-start text-white">
-                            <p class="me-5 fs-8">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 d-flex m-auto">
+                        <div class="m-auto">
+                            <ul class="list-unstyled ul-li text-center fw-bold">
+                                <li class="py-3">
+                                    <a class="ul-li" href="https://www.facebook.com/">FACEBOOK</a>
+                                </li>
+                                <li class="py-3">
+                                    <a class="ul-li" href="https://www.instagram.com/">INSTAGRAM</a>
+                                </li>
+                                <li class="py-3">
+                                    <a class="ul-li" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">TWITTER</a>
+                                </li>
+                                <li class="py-3">
+                                    <a class="ul-li" href="https://www.youtube.com/">YOUTUBE</a>
+                                </li>
+                                <li class="py-3">
+                                    <a class="ul-li" href="https://www.google.com/maps/@30.4794636,74.5345988,15z">GOOGLE MAP</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- second section end -->
-
-    <!-- third section start -->
-    <section class="menu-sec2 bg-img1">
-        <div class="container">
-            <div class="row py-5">
-                <div class="text-center pt-5">
-                    <p class="home-col fs-4 fw-bold">DELICIOUS</p>
-                </div>
-                <div class="text-center pb-4">
-                    <img src="./images/design.svg" class="des-width">
-                </div>
-                <div class="text-center">
-                    <p class="font-royalty text-white">Main Dishes</p>
-                </div>
-            </div>
-            <div class="row py-2">
-                
-                <div class="col-lg-6 col-12">
-                    <div class="col-10 py-lg-0 py-4 m-auto">
-                        <div class="float-start w-50">
-                            <p class="menu-dish fs-4 mb-0">Greek Salad</p>
-                        </div>
-                        <div class="float-end w-50 text-end">
-                            <p class="menu-pricing fs-5 mb-0">$25.50</p>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="text-start text-white">
-                            <p class="me-5 fs-8">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</p>
-                        </div>
-
-                        <div class="float-start w-50">
-                            <p class="menu-dish fs-4 mb-0">Lasagne </p>
-                        </div>
-                        <div class="float-end w-50 text-end">
-                            <p class="menu-pricing fs-5 mb-0"> $40.00</p>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="text-start text-white">
-                            <p class="me-5 fs-8">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</p>
-                        </div>
-
-                        <div class="float-start w-50">
-                            <p class="menu-dish fs-4 mb-0">Butternut Pumpkin</p>
-                        </div>
-                        <div class="float-end w-50 text-end">
-                            <p class="menu-pricing fs-5 mb-0">$15.50</p>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="text-start text-white">
-                            <p class="me-5 fs-8">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</p>
-                        </div>
-
-                        <div class="float-start w-50">
-                            <p class="menu-dish fs-4 mb-0">Tokusen Wagyu</p>
-                        </div>
-                        <div class="float-end w-50 text-end">
-                            <p class="menu-pricing fs-5 mb-0">$25.50</p>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="text-start text-white">
-                            <p class="me-5 fs-8">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12">
-                    <div class="text-center"> 
-                        <img src="./images/menu-dinner.jpg" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- third section end -->  
-
-    <!-- forth section start -->
-    <section class="menu-sec4 py-5">
-        <div class="container">
-            <div class="row py-5">
-                <div class="text-center pt-5">
-                    <p class="home-col fs-4 fw-bold">SPECIAL OFFER</p>
-                </div>
-                <div class="text-center pb-4">
-                    <img src="./images/design.svg" class="des-width">
-                </div>
-                <div class="text-center">
-                    <p class="font-royalty text-white">Best Special Menu</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-12 py-3">
-                    <div>
-                        <div class="text-center ">
-                            <img src="./images/chicken-tikka.jpg" class="img-fluid image">
-                        </div>
-                        <div class="dish-name text-white text-center py-2 fs-4">
-                            <p>Chicken Tikka</p>
-                        </div>
-                        <div class="dish-pro text-center py-2 ">
-                            <p>Avocados with crab meat, red onion, crab salad red bell pepper...</p>
-                        </div>
-                        <div class="price text-center fs-5 fw-bold">
-                            <p>$39.00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12 py-3">
-                    <div>
-                        <div class=" text-center">
-                            <img src="./images/mix-veg.jpg" class="img-fluid image">
-                        </div>
-                        <div class="dish-name text-white text-center py-2 fs-4">
-                            <p>Mixed Veg.</p>
-                        </div>
-                        <div class="dish-pro text-center py-2 ">
-                            <p>Tomatoes, green bell pepper, sliced cucumber onion, olives...</p>
-                        </div>
-                        <div class="price text-center fs-5 fw-bold">
-                            <p>$22.00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12 py-3">
-                    <div>
-                        <div class=" text-center">
-                            <img src="./images/butternut.jpg" class="img-fluid image">
-                        </div>
-                        <div class="dish-name text-white text-center py-2 fs-4">
-                            <p>Butternut-Pumpkin</p>
-                        </div>
-                        <div class="dish-pro text-center py-2">
-                            <p>Avocados with crab meat, red onion, crab salad stuffed bell pepper...</p>
-                        </div>
-                        <div class="price text-center fs-5 fw-bold">
-                            <p>$32.00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12 py-3">
-                    <div>
-                        <div class=" text-center">
-                            <img src="./images/fried-fish.jpg" class="img-fluid image">
-                        </div>
-                        <div class="dish-name text-white text-center py-2 fs-4">
-                            <p>Opu Fish</p>
-                        </div>
-                        <div class="dish-pro text-center py-2">
-                            <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings...</p>
-                        </div>
-                        <div class="price text-center fs-5 fw-bold">
-                            <p>$12.00</p>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-12 py-3">
-                    <div>
-                        <div class=" text-center">
-                            <img src="./images/gravy-chicken.jpg" class="img-fluid image">
-                        </div>
-                        <div class="dish-name text-white text-center py-2 fs-4">
-                            <p>Gravy Chicken</p>
-                        </div>
-                        <div class="dish-pro text-center py-2 ">
-                            <p>Avocados with crab meat, red onion, crab salad red bell pepper...</p>
-                        </div>
-                        <div class="price text-center fs-5 fw-bold">
-                            <p>$39.00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12 py-3">
-                    <div>
-                        <div class=" text-center">
-                            <img src="./images/hakka-noodles.jpg" class="img-fluid image">
-                        </div>
-                        <div class="dish-name text-white text-center py-2 fs-4">
-                            <p>Hakka Noodles</p>
-                        </div>
-                        <div class="dish-pro text-center py-2 ">
-                            <p>Tomatoes, green bell pepper, sliced cucumber onion, olives...</p>
-                        </div>
-                        <div class="price text-center fs-5 fw-bold">
-                            <p>$22.00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12 py-3">
-                    <div>
-                        <div class=" text-center">
-                            <img src="./images/veg-rice.jpg" class="img-fluid image">
-                        </div>
-                        <div class="dish-name text-white text-center py-2 fs-4">
-                            <p>Veg-Rice</p>
-                        </div>
-                        <div class="dish-pro text-center py-2">
-                            <p>Avocados with crab meat, red onion, crab salad stuffed bell pepper...</p>
-                        </div>
-                        <div class="price text-center fs-5 fw-bold">
-                            <p>$32.00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-12 py-3">
-                    <div>
-                        <div class=" text-center">
-                            <img src="./images/palak-paneer.jpg" class="img-fluid image">
-                        </div>
-                        <div class="dish-name text-white text-center py-2 fs-4">
-                            <p>Palak Paneer</p>
-                        </div>
-                        <div class="dish-pro text-center py-2">
-                            <p>Vegetables, cheeses, ground meats, tomato sauce, seasonings...</p>
-                        </div>
-                        <div class="price text-center fs-5 fw-bold">
-                            <p>$12.00</p>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- forth section end -->
-
-    <!-- footer section start -->
-    <section class="footer-sec py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-12 m-auto">
-                    <div class="m-auto">
-                        <ul class="list-unstyled ul-li text-center fw-bold">
-                            <li class="py-3">
-                                <a class="ul-li" href="index.html">HOME</a>
-                            </li>                            
-                            <li class="py-3">
-                                <a class="ul-li" href="about.html">About us</a>
-                            </li>
-                            <li class="py-3">
-                                <a class="ul-li" href="menu.html">MENU</a>
-                            </li>
-                            <li class="py-3">
-                                <a class="ul-li" href="contact.html">CONTACT</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6 for-bg-img col-12">
-                    <div class="py-5 px-4">
-                        <div class="text-center py-4">
-                            <p class="eat mb-0">EAT & FLY <br><span class="dhaba">DHABA</span></p>
-                        </div>
-                        <div class="text-center py-5 address-font">
-                            <p class="mb-1">Restaurant St, Delicious City, London 9578, UK</p>
-                            <p class="mb-1">booking@domainname.com</p>
-                            <p class="mb-1">Booking Request : +88-123-123456</p>
-                            <p class="mb-1">Open : 09:00 am - 01:00 pm</p>
-                        </div>
-                        <div class="text-center">
-                            <p class="dhaba">Good taste in every bite</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12 d-flex m-auto" >
-                    <div class="m-auto">
-                        <ul class="list-unstyled ul-li text-center fw-bold">
-                            <li class="py-3">
-                                <a class="ul-li" href="https://www.facebook.com/">FACEBOOK</a>
-                            </li>                            
-                            <li class="py-3">
-                                <a class="ul-li" href="https://www.instagram.com/">INSTAGRAM</a>
-                            </li>
-                            <li class="py-3">
-                                <a class="ul-li" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">TWITTER</a>
-                            </li>
-                            <li class="py-3">
-                                <a class="ul-li" href="https://www.youtube.com/">YOUTUBE</a>
-                            </li>
-                            <li class="py-3">
-                                <a class="ul-li" href="https://www.google.com/maps/@30.4794636,74.5345988,15z">GOOGLE MAP</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- footer section end -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+        </section>
+        <!-- footer section end -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script>
+            window.addEventListener("scroll", function(){
+              var header = document.querySelector(".navbar-fix");
+              header.classList.toggle("sticky", window.scrollY > 0);
+            });
+        </script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
 </html>
