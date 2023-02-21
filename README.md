@@ -6,11 +6,11 @@
 
 * Bootstrap properites also has been used in this website.
 
-#links
+# links
 
 With https://michalsnik.github.io/aos/ help, I have installed animation in this website.
 
-#for-icons
+# for-icons
 
 With the help of font awesome website, i have installed icons in this website.
 
